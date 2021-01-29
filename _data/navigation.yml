@@ -1,0 +1,9 @@
+nav:
+  - title: Consumers
+    url: /Consumers
+
+  - title: Businesses
+    url: /Businesses
+
+  - title: About
+    url: /About

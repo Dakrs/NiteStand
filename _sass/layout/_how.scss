@@ -1,0 +1,63 @@
+section#how{
+  background-color: $theme-light;
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0px;
+    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+    color: #777;
+  }
+
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+  }
+
+  ul.special {
+    counter-reset: index;
+    padding: 0;
+    max-width: 100%;
+  }
+
+  /* List element */
+  li.special {
+    counter-increment: index;
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    box-sizing: border-box;
+  }
+
+  /* Element counter */
+  li.special::before {
+    content: counters(index, ".", decimal-leading-zero);
+    font-size: 3.5rem;
+    text-align: right;
+    font-weight: bold;
+    min-width: 50px;
+    padding-right: 5%;
+    font-variant-numeric: tabular-nums;
+    align-self: flex-start;
+    background-image: linear-gradient(to bottom, aquamarine, orangered);
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Element separation */
+  li.special + li.special {
+    border-top: 1px solid rgba(34, 34, 34, 0.1)
+  }
+
+  @use postcss-preset-env {
+    stage: 0;
+    autoprefixer: {
+      grid: true;
+    }
+    browsers: last 2 versions
+  }
+}

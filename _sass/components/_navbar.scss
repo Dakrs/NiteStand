@@ -1,0 +1,94 @@
+// Styling for the navbar
+#mainNav {
+  background-color: white;
+  border: 1px solid rgba(34, 34, 34, 0.1);
+  .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: #222222;
+    border: 1px solid rgba(34, 34, 34, 0.1);
+    background-color: white;
+    @include heading-font;
+  }
+  .navbar-brand {
+    color: #222222;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    &.active,
+    &:active,
+    &:focus,
+    &:hover {
+      color: darken($primary, 10%);
+    }
+  }
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        font-size: 90%;
+        font-weight: 400;
+        padding: 0.75em 0;
+        letter-spacing: 1px;
+        color: #222222;
+        font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+        &.active,
+        &:hover {
+          color: #222222;
+        }
+      }
+    }
+  }
+}
+@media(min-width:992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+    border: none;
+    background-color: transparent;
+    .navbar-brand {
+      font-size: 1.75em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+      color: rgba(255, 255, 255, 0.7);
+    }
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: rgba(255, 255, 255, 0.7);
+          &:hover {
+            color: $primary;
+          }
+          padding: 1.1em 1em !important;
+        }
+      }
+    }
+    &.navbar-shrink {
+      padding-top: 0;
+      padding-bottom: 0;
+      background-color: white;
+      border: 1px solid rgba(34, 34, 34, 0.1);
+      color: #222222;
+      .navbar-brand {
+        color: #222222;
+        font-size: 1.25em;
+        padding: 12px 0;
+        &:hover {
+          color: $primary;
+        }
+      }
+      .nav-item {
+        .nav-link {
+          color: #222222;
+          &:hover {
+            color: $primary;
+          }
+          padding: 1.1em 1em !important;
+        }
+      }
+    }
+  }
+}

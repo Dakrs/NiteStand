@@ -1,0 +1,15 @@
+<section id="mission">
+  <div class="container" style="max-width: 960px;">
+    <div class="row">
+      <div class="col-lg-8">
+        <h3>Our Mission</h3>
+        {%- for item in site.data.sitetext.mission.text -%}
+          <p>{{item.para}}</p>
+        {% endfor %}
+      </div>
+      <div class="col-lg-4 align-self-center">
+        <img src="assets/img/icon.png" style="height: 100%; width: 100%">
+      </div>
+    </div>
+  </div>
+</section>

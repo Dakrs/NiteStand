@@ -1,0 +1,225 @@
+header:
+    text: "Nite, a revolutionary drinking card system for NightClubs or Bars."
+    button: "Find out more!"
+
+services:
+    title: "Services"
+    text: "Lorem ipsum"
+    section: services
+    list:
+      - title: "E-Commerce"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "Responsive Design"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-laptop
+      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+        desc: "Your description here, full **Markdown** support"
+        icon: fab fa-markdown
+
+portfolio:
+    title: "Portfolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: portfolio
+    closebutton: "Close Project"
+
+
+timeline:
+    title: "About"
+    text: "Lorem ipsum timeline"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Our Humble Beginnings"
+        year: "2009-2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "An Agency is Born"
+        year: "March 2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "Jekyll Theme is created"
+        year: "2019"
+        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: "Title"
+        year: "2009-2011"
+        desc: "Your description here, **Markdown** is fully supported."
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the aligment
+        align: right
+    end: "Be Part <br> of Our <br> Story!"
+
+about:
+    title: "About Us"
+    text: "our story"
+    section: about
+
+clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "envato"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: "designmodo"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: "themeforest"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Creative Market"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
+
+team:
+    title: "OUR AMAZING TEAM"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: team
+    people:
+      - name: "Filipa Pereira"
+        role: "Frontend dev"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-github
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Diogo Sobral"
+        role: "Lead Frontend dev & Team Manager"
+        image: assets/img/team/fds.JPG
+        social:
+          - url: https://github.com/dakrs
+            icon: fab fa-github
+          - url: https://www.linkedin.com/in/dsobral54/
+            icon: fab fa-linkedin-in
+      - name: "Mariana Pereira"
+        role: "Frontend dev"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-github
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Maria Dias"
+        role: "Lead Frontend dev"
+        image: assets/img/team/fmd.png
+        social:
+          - url: https://github.com/mariadias143
+            icon: fab fa-github
+          - url: https://www.linkedin.com/in/mariadias143/
+            icon: fab fa-linkedin-in
+      - name: "Nuno Silva"
+        role: "Frontend dev"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-github
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Bruno Pereira"
+        role: "Lead Frontend dev"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-github
+          - url: https://www.linkedin.com/in/bgpereira/
+            icon: fab fa-linkedin-in
+      - name: "Francisco Freitas"
+        role: "Lead Backend Dev"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-github
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Pedro Freitas"
+        role: "Backend Dev"
+        image: assets/img/team/fpf.jpg
+        social:
+          - url: https://github.com/PedroFreitas90
+            icon: fab fa-github
+          - url: https://www.linkedin.com/in/pedrofreitas90/
+            icon: fab fa-linkedin-in
+      - name: "Hugo Gião"
+        role: "Backend Dev"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-github
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+
+contact:
+    title: "Contact Us"
+    text: "Lorem ipsum or call 123456789"
+    section: contact
+
+footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+
+promises:
+  title: "For an establishment"
+  subtitle: "With"
+  first_promise_name: "Mobile Payments"
+  first_promise_text: "Allowing a consumer to pay with his mobile phone"
+  snd_promise_name: "Digital Consumption Cards"
+  snd_promise_text: "A digital simulation of a physical drinking card"
+  thd_promise_name: "Time Efficiency"
+  thd_promise_text: "Optimization internal processes with the data collected"
+
+how:
+  - name: "A User App"
+    text: "App for every user to take advantge of a digital drinking card"
+  - name: "A Worker App"
+    text: "App for employees to sell items and ..."
+  - name: "A BackOffice App"
+    text: "Mobile Payments removes any existing queue."
+  - name: "A Special Card"
+    text: "Mobile Payments removes any existing queue."
+
+solutions:
+  - text: "A mobile app for a user to interact with the system"
+    role: "Consumers"
+    platform: "Android"
+    link:  /consumers
+    index: 1
+  - text: "A mobile app for every job an employee might have"
+    role: "Employees"
+    platform: "Android"
+    link:  /businesses
+    index: 2
+  - text: "A website for management tasks"
+    role: "Managers"
+    platform: "Website"
+    link:  /businesses
+    index: 3
+
+history:
+  text: "dalksdjalskndalskndalskndalksndalskndaslknda d dasd"
+
+mission:
+  text:
+    - para: "A felicidade está nos pequenos momentos vividos com as pessoas que mais gostamos. Os sorrisos, as gargalhadas, as danças e até mesmo as canções fazem com que nos sintamos mais vivos que nunca. A batida de uma música no ouvido, a sincronização do batimento do coração e aquela troca de olhares sorrateira explodem as nossas sensações e impedem-nos de dizer que não aos momentos. O Nite é conforto, é segurança, é alegria, é, na verdade, o momento. É a razão para que nenhum destes momentos seja perdida. É a resposta às preocupações quando as pessoas saem à noite."
+    - para: "Seremos um sinónimo que tudo correrá bem, que as pessoas se podem divertir que, nós, tratamos do resto. Permitiremos aos nossos consumidores aproveitar o agora e deixar os problemas de lado. Lembrá-los-emos dos amigos e prometeremos que um sorriso nunca mais será o mesmo."
+    - para: "Seremos uma referência, um símbolo de segurança e o sexto sentido para que boas coisas aconteçam, em qualquer estabelecimento e em qual lugar."
+# {{ site.data.sitetext.ex.ex | markdownify | default: example }}

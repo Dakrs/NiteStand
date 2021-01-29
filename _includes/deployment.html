@@ -1,0 +1,31 @@
+<section id="deployment">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Find out more about our system</h2>
+              <br />
+          </div>
+      </div>
+  </div>
+  <div class="containerArticles">
+    <ol class="articles">
+      {% for item in site.data.sitetext.solutions %}
+        <li class="articles__article" style="--animation-order:{{item.index}}"><a class="articles__link" href="{{item.link}}">
+                <div class="articles__content articles__content--lhs">
+                    <h2 class="articles__title">{{item.text}}</h2>
+                    <div class="articles__footer">
+                        <p>{{item.role}}</p><p>{{item.platform}}</p>
+                    </div>
+                </div>
+                <div class="articles__content articles__content--rhs" aria-hidden="true">
+                    <h2 class="articles__title">{{item.text}}</h2>
+                    <div class="articles__footer">
+                        <p>{{item.role}}</p><p>{{item.platform}}</p>
+                    </div>
+                </div>
+            </a>
+        </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>

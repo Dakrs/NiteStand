@@ -1,0 +1,138 @@
+
+section#platform {
+  background-color: $primary;
+  p {
+    color: white;
+  }
+}
+
+.badges .badge-link {
+  display: block;
+  margin-bottom: 25px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  img {
+    height: 60px;
+  }
+}
+
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+#intro {
+  width: 200px;
+  padding: 0px;
+  margin-left: 25px;
+}
+
+.buttonRec {
+    display: inline-block;
+    text-decoration: none !important;
+    position: relative;
+    width: 100%;
+}
+
+.buttonRec .bottom {
+    position: absolute;
+    left: 7px;
+    top: 7px;
+    width: 100%;
+    height: 100%;
+    background-color: #2d2d2d;
+    display: block;
+    -webkit-transition: all .15s ease-out;
+    -moz-transition: all .15s ease-out;
+    -o-transition: all .15s ease-out;
+    transition: all .15s ease-out;
+}
+
+.buttonRec .top {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 24px 34px 22px 34px;
+    border: 2px solid white;
+}
+
+.buttonRec-dark .top {
+    border: 2px solid #fff;
+}
+
+.buttonRec .top .label {
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 11px;
+    line-height: 110%;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: all .15s ease-out;
+    -moz-transition: all .15s ease-out;
+    -o-transition: all .15s ease-out;
+    transition: all .15s ease-out;
+}
+
+.buttonRec-dark .top .label {
+    color: #fff;
+}
+
+.buttonRec:hover .bottom {
+    left: 0;
+    top: 0;
+    background-color: #f3f3f3;
+}
+
+.buttonRec:hover .top .label {
+    color: #2d2d2d;
+}
+
+.buttonRec-border {
+    position: absolute;
+    background-color: #2d2d2d;
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+}
+
+.buttonRec:hover .top .buttonRec-border-left,.buttonRec:hover .top .buttonRec-border-right {
+    height: calc(100% + 2px);
+}
+
+.buttonRec:hover .top .buttonRec-border-top,.buttonRec:hover .top .buttonRec-border-bottom {
+    width: calc(100% + 2px);
+}
+
+.buttonRec-border-left {
+    left: -2px;
+    bottom: -2px;
+    width: 2px;
+    height: 0;
+}
+
+.buttonRec-border-top {
+    left: -2px;
+    top: -2px;
+    width: 0;
+    height: 2px;
+}
+
+.buttonRec-border-right {
+    right: -2px;
+    top: -2px;
+    width: 2px;
+    height: 0;
+}
+
+.buttonRec-border-bottom {
+    right: -2px;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+}
