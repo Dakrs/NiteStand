@@ -86,7 +86,7 @@ team:
     people:
       - name: "Filipa Pereira"
         role: "Frontend dev"
-        image: assets/img/team/500x500.jpg
+        image: /assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-github
@@ -94,7 +94,7 @@ team:
             icon: fab fa-linkedin-in
       - name: "Diogo Sobral"
         role: "Lead Frontend dev & Team Manager"
-        image: assets/img/team/fds.JPG
+        image: /assets/img/team/fds.JPG
         social:
           - url: https://github.com/dakrs
             icon: fab fa-github
@@ -102,7 +102,7 @@ team:
             icon: fab fa-linkedin-in
       - name: "Mariana Pereira"
         role: "Frontend dev"
-        image: assets/img/team/500x500.jpg
+        image: /assets/img/team/fmp.jpeg
         social:
           - url: https://twitter.com
             icon: fab fa-github
@@ -110,7 +110,7 @@ team:
             icon: fab fa-linkedin-in
       - name: "Maria Dias"
         role: "Lead Frontend dev"
-        image: assets/img/team/fmd.png
+        image: /assets/img/team/fmd.png
         social:
           - url: https://github.com/mariadias143
             icon: fab fa-github
@@ -118,23 +118,23 @@ team:
             icon: fab fa-linkedin-in
       - name: "Nuno Silva"
         role: "Frontend dev"
-        image: assets/img/team/500x500.jpg
+        image: /assets/img/team/fns.jpg
         social:
-          - url: https://twitter.com
+          - url: https://github.com/mineiro25
             icon: fab fa-github
-          - url: https://linkedin.com
+          - url: https://www.linkedin.com/in/nunosilva25/
             icon: fab fa-linkedin-in
       - name: "Bruno Pereira"
         role: "Lead Frontend dev"
-        image: assets/img/team/500x500.jpg
+        image: /assets/img/team/fbp.jpg
         social:
-          - url: https://twitter.com
+          - url: https://github.com/b-pereira
             icon: fab fa-github
           - url: https://www.linkedin.com/in/bgpereira/
             icon: fab fa-linkedin-in
       - name: "Francisco Freitas"
         role: "Lead Backend Dev"
-        image: assets/img/team/500x500.jpg
+        image: /assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-github
@@ -142,7 +142,7 @@ team:
             icon: fab fa-linkedin-in
       - name: "Pedro Freitas"
         role: "Backend Dev"
-        image: assets/img/team/fpf.jpg
+        image: /assets/img/team/fpf.jpg
         social:
           - url: https://github.com/PedroFreitas90
             icon: fab fa-github
@@ -150,7 +150,7 @@ team:
             icon: fab fa-linkedin-in
       - name: "Hugo Gião"
         role: "Backend Dev"
-        image: assets/img/team/500x500.jpg
+        image: /assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-github
