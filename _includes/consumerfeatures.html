@@ -1,0 +1,36 @@
+<section id="consumerfea">
+  <div class="container" style="max-width: 960px">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="device-wrapper" style="width: 100%">
+          <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+            <div class="screen">
+              <div id="slideshow" style="overflow: hidden">
+                {% for item in site.data.sitetext.consumerimagecaroussel %}
+                  <div>
+                    <img src="{{item.img}}" style="width: 100%" alt="">
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8 text-center">
+        <h1 style="font-size: 3rem">The app you have been asking for</h1>
+        <p style="text-muted">Take your experience in a nightclub or a bar to the next level.</p>
+        <div class="row">
+          {% for item in site.data.sitetext.consumerfeatures %}
+            <div class="col-6 align-self-center">
+              <div class="feature">
+                <i class="{{item.icon}}"></i>
+                <h3>{{item.name}}</h3>
+                <p>{{item.text}}</p>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

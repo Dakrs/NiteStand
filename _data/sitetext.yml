@@ -86,12 +86,10 @@ team:
     people:
       - name: "Filipa Pereira"
         role: "Frontend dev"
-        image: /assets/img/team/500x500.jpg
+        image: /assets/img/team/ffp.jpg
         social:
-          - url: https://twitter.com
+          - url: https://github.com/FilipaPereira
             icon: fab fa-github
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
       - name: "Diogo Sobral"
         role: "Lead Frontend dev & Team Manager"
         image: /assets/img/team/fds.JPG
@@ -188,14 +186,14 @@ promises:
   thd_promise_text: "Optimization internal processes with the data collected"
 
 how:
-  - name: "A User App"
-    text: "App for every user to take advantge of a digital drinking card"
-  - name: "A Worker App"
-    text: "App for employees to sell items and ..."
-  - name: "A BackOffice App"
-    text: "Mobile Payments removes any existing queue."
+  - name: "User App"
+    text: "An app for users to interact with the establishment."
+  - name: "Staff App"
+    text: "An app for every task an establishment performs."
+  - name: "BackOffice App"
+    text: "Made especially for the management tasks."
   - name: "A Special Card"
-    text: "Mobile Payments removes any existing queue."
+    text: "The key to connect every app."
 
 solutions:
   - text: "A mobile app for a user to interact with the system"
@@ -215,11 +213,35 @@ solutions:
     index: 3
 
 history:
-  text: "dalksdjalskndalskndalskndalksndalskndaslknda d dasd"
+  text: "As a group of young people who have a very active night life and a background in computer science and engineering, we began to take notice of how most nocturnal establishments have a decayed maner of operating. As the end of the night approaches, we find ourselves trapped in an everlasting queue of people that are all trying to pay and head home. Since everyone is eager to leave, we often witness a display of violent behaviours, with people pushing and swearing, leaving us feeling  unsafe. Through the pains we suffered, as consumers, we found an opportunity of business that could solve our problems. By turning nocturnal establishments digital, we could eliminate consumer’s pains and help the business."
 
 mission:
   text:
     - para: "A felicidade está nos pequenos momentos vividos com as pessoas que mais gostamos. Os sorrisos, as gargalhadas, as danças e até mesmo as canções fazem com que nos sintamos mais vivos que nunca. A batida de uma música no ouvido, a sincronização do batimento do coração e aquela troca de olhares sorrateira explodem as nossas sensações e impedem-nos de dizer que não aos momentos. O Nite é conforto, é segurança, é alegria, é, na verdade, o momento. É a razão para que nenhum destes momentos seja perdida. É a resposta às preocupações quando as pessoas saem à noite."
     - para: "Seremos um sinónimo que tudo correrá bem, que as pessoas se podem divertir que, nós, tratamos do resto. Permitiremos aos nossos consumidores aproveitar o agora e deixar os problemas de lado. Lembrá-los-emos dos amigos e prometeremos que um sorriso nunca mais será o mesmo."
     - para: "Seremos uma referência, um símbolo de segurança e o sexto sentido para que boas coisas aconteçam, em qualquer estabelecimento e em qual lugar."
+
+consumerfeatures:
+  - icon: "fas fa-mobile-alt"
+    name: "Digital Bill"
+    text: "Check your bill in your phone."
+  - icon: "fas fa-shield-alt"
+    name: "Card Control"
+    text: "Control your card remotely"
+  - icon: "fas fa-book"
+    name: "Digital Menu"
+    text: "Consult the menu of an establishment"
+  - icon: "fas fa-credit-card"
+    name: "Mobile Payments"
+    text: "Pay on your device"
+
+consumerimagecaroussel:
+  - img: /assets/img/userswithout/screencard.png
+  - img: /assets/img/userswithout/billinginfo.png
+  - img: /assets/img/userswithout/cardinfo.png
+  - img: /assets/img/userswithout/paymentoptions.png
+  - img: /assets/img/userswithout/cardpaid.png
+  - img: /assets/img/userswithout/paymentcredit.png
+  - img: /assets/img/userswithout/menu.png
+  - img: /assets/img/userswithout/guestcode.png
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}

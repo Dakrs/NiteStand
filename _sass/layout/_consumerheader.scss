@@ -1,0 +1,33 @@
+header.consumerhead {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  //overflow-y: hidden;
+  //background: url("../img/bg-pattern.png"), $head-primary;
+  background-image: url("../img/background1.jpg");
+  background-position: center;
+  background-size: cover;
+  /* fallback for old browsers */
+  //background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, $head-primary, $head-secondary);
+  /* Chrome 10-25, Safari 5.1-6 */
+  //background: url("../img/bg-pattern.png"), linear-gradient(to left, $head-primary, $head-secondary);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  .header-content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .header-title {
+      padding: 10px 10px 10px 25px;
+      border: 20px solid #fff;
+      h1 {
+        font-weight: 200;
+        letter-spacing: 1px;
+        margin: 0px;
+        font-family: 'BahnPro-Regular';
+      }
+    }
+  }
+}

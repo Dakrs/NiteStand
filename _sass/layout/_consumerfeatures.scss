@@ -1,0 +1,30 @@
+.feature {
+  margin-top: 10%;
+  i {
+    font-size: 3rem;
+    background: -webkit-linear-gradient(to left, $head-primary, $head-secondary);
+    background: linear-gradient(to left, $head-primary, $head-secondary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  h3 {
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  }
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}

@@ -36,3 +36,5 @@ $contact-image: "{{ site.data.style.contact-image }}";
 @import "layout/deployment.scss";
 @import "layout/abouthead";
 @import "layout/mission.scss";
+@import "layout/consumerheader.scss";
+@import "layout/consumerfeatures.scss";
