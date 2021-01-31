@@ -2,14 +2,14 @@
   <div class="container" style="max-width: 720px">
     <div class="row">
       <div class="col-md-6 align-self-center">
-        <h1 style="font-size: 3rem">Digitial Menu</h1>
-          <p style="text-muted">Check the price of each drink inside a establishment, choose what you want to drink.</p>
+        <h1 style="font-size: 3rem">{{site.data.sitetext.digitalmenu.titleText}}</h1>
+          <p style="text-muted">{{site.data.sitetext.digitalmenu.text}}</p>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6" style="display: flex; justify-content: center">
         <div class="device-wrapper" style="width: 100%">
           <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
             <div class="screen">
-              <img src="/assets/img/userswithout/menu.png" style="width: 100%" alt="">
+              <img src="{{site.data.sitetext.digitalmenu.img}}" style="width: 100%" alt="">
             </div>
           </div>
         </div>

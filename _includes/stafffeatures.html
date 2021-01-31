@@ -1,0 +1,32 @@
+<section id="stafffea" class="page-section">
+  <div class="container" style="max-width: 960px">
+    <div class="row">
+      <div class="col-lg-8 text-center">
+        <div class="container">
+          <h1 style="font-size: 3rem">{{site.data.sitetext.stafffeatures.title}}</h1>
+          <p style="text-muted">{{site.data.sitetext.stafffeatures.text}}</p>
+          <div class="row" style="margin-top:10%">
+            {% for item in site.data.sitetext.stafffeatures.features %}
+              <div class="col-6">
+                <div class="feature">
+                  <i class="{{item.icon}}"></i>
+                  <h3>{{item.name}}</h3>
+                  <p>{{item.text}}</p>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4" style="display: flex; justify-content: center">
+        <div id="slideshow" style="overflow: hidden; max-height: 607px; width: 290px">
+          {% for item in site.data.sitetext.stafffeatures.images %}
+            <div>
+              <img src="{{item}}" style="width: 100%" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

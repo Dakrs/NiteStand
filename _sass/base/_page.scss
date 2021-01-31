@@ -4,6 +4,11 @@
   src: url('../fonts/BahnPro_Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'OpenSans-BoldItalic';
+  src: url('../fonts/OpenSans-BoldItalic.ttf') format('truetype');
+}
+
 body {
   overflow-x: hidden;
   @include body-font;

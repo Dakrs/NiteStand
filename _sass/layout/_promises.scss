@@ -1,5 +1,8 @@
 section#promises{
   background-color: white;
+}
+
+.promises{
   h1,h2,h3 {
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 200;
@@ -8,10 +11,10 @@ section#promises{
   h3 {
     margin-top: 20px;
     margin-bottom: 10px;
-    font-size: 24px;
+    font-size: 22px;
   }
   p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
     font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
@@ -28,7 +31,7 @@ section#promises{
   .feature-item {
       text-align: center;
       i {
-        font-size: 80px;
+        font-size: 5rem;
         background: -webkit-linear-gradient(to left, $head-primary, $head-secondary);
         background: linear-gradient(to left, $head-primary, $head-secondary);
         -webkit-background-clip: text;

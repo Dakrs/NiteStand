@@ -1,0 +1,113 @@
+section#cardBuisenesses {
+  background-color: $theme-light
+}
+
+.card_body {
+  padding: 0.75rem 1.75rem;
+}
+.active .floating:before {
+  opacity: 1;
+  transition: 500ms;
+}
+.floating {
+  font-family: Inconsolata;
+  margin: auto;
+  width: 453px;
+  height: 280px;
+  box-shadow: -20px 14px 54px rgba(0, 0, 0, 0.55);
+  font-size: 18px;
+  border-radius: 8px;
+  transform-style: preserve-3d;
+  transform-origin: 50% 50%;
+  background: linear-gradient(145deg, #FF416C, #FF4B2B);
+  transform: rotateX(17deg) rotateY(18deg);
+}
+
+.logo {
+  height: 60px;
+  font-family: OpenSans-BoldItalic;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  transform: translateZ(30px);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  font-weight: normal;
+  filter: drop-shadow(-6.4px 6.2px 8px rgba(0, 0, 0, 0.6));
+  z-index: 20;
+}
+
+.paywave {
+  transform: translateZ(30px);
+  float: right;
+  position: absolute;
+  margin: 15px 5px;
+  top: 0;
+  right: 0;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(-6.4px 6.2px 8px rgba(0, 0, 0, 0.6));
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='56' viewBox='0 0 46 56'%3E%3Ctitle%3EContactlessIndicator 000%3C/title%3E%3Cpath fill='none' stroke='%23FFF' stroke-width='6' stroke-linecap='round' d='m35,3a50,50 0 0,1 0,50M24,8.5a39,39 0 0,1 0,39M13.5,13.55a28.2,28.5 0 0,1 0,28.5M3,19a18,17 0 0,1 0,18'/%3E%3C/svg%3E");
+}
+
+.logo_center {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 20px;
+  left: 40%;
+  transform: translateZ(2px);
+  margin-left: -75px;
+  z-index: 1;
+  filter: drop-shadow(-3.2px 3.1px 4px rgba(0, 0, 0, 0.3));
+  background-image: url("http://localhost:4000/assets/img/icon.png");
+  background-size:contain;
+}
+
+.card_no {
+  transform: translateZ(40px);
+  font-family: kredit-front;
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #fff;
+  position: absolute;
+  letter-spacing: 3px;
+  bottom: 90px;
+  z-index: 2;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  text-shadow: -9px 8.7px 6px rgba(0, 0, 0, 0.8);
+  width: calc(100% - 3.5rem);
+  text-align: center;
+}
+
+.holder {
+  position: absolute;
+  font-family: kredit-front;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  text-shadow: -9px 8.7px 6px rgba(0, 0, 0, 0.8);
+  bottom: 20px;
+  left: 30px;
+  z-index: 20;
+  letter-spacing: 2px;
+  transform: translateZ(50px);
+}
+
+.thickness {
+  width: 453px;
+  height: 280px;
+  border-radius: 8px;
+  position: absolute;
+  background: linear-gradient(145deg, #FF416C, #FF4B2B);
+  transform: translateZ(-4px);
+}
+.thickness:nth-child(2) {
+  transform: translateZ(-8px);
+}
+.thickness:nth-child(3) {
+  transform: translateZ(-11px);
+}

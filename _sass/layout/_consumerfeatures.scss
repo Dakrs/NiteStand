@@ -1,5 +1,4 @@
 .feature {
-  margin-top: 10%;
   i {
     font-size: 3rem;
     background: -webkit-linear-gradient(to left, $head-primary, $head-secondary);
@@ -20,6 +19,9 @@
     line-height: 1.5;
     margin-bottom: 20px;
     font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  }
+  .text-muted {
+    color: #777 !important;
   }
 }
 

@@ -132,12 +132,14 @@ team:
             icon: fab fa-linkedin-in
       - name: "Francisco Freitas"
         role: "Lead Backend Dev"
-        image: /assets/img/team/500x500.jpg
+        image: /assets/img/team/fff.jpg
         social:
-          - url: https://twitter.com
+          - url: https://github.com/FranciscoFreitas45
             icon: fab fa-github
-          - url: https://linkedin.com
+          - url: https://www.linkedin.com/in/francisco-freitas-5bb056115/
             icon: fab fa-linkedin-in
+          - url: https://www.instagram.com/zefreitas45/
+            icon: fab fa-instagram
       - name: "Pedro Freitas"
         role: "Backend Dev"
         image: /assets/img/team/fpf.jpg
@@ -195,24 +197,27 @@ how:
   - name: "A Special Card"
     text: "The key to connect every app."
 
-solutions:
-  - text: "A mobile app for a user to interact with the system"
-    role: "Consumers"
-    platform: "Android"
-    link:  /consumers
-    index: 1
-  - text: "A mobile app for every job an employee might have"
-    role: "Employees"
-    platform: "Android"
-    link:  /businesses
-    index: 2
-  - text: "A website for management tasks"
-    role: "Managers"
-    platform: "Website"
-    link:  /businesses
-    index: 3
+deployment:
+  title: "Find out more about our system"
+  solutions:
+    - text: "A mobile app for a user to interact with the system"
+      role: "Consumers"
+      platform: "Android"
+      link:  /consumers
+      index: 1
+    - text: "A mobile app for every job an employee might have"
+      role: "Employees"
+      platform: "Android"
+      link:  /businesses
+      index: 2
+    - text: "A website for management tasks"
+      role: "Managers"
+      platform: "Website"
+      link:  /businesses
+      index: 3
 
 history:
+  titleText: "Our Mission"
   text: "As a group of young people who have a very active night life and a background in computer science and engineering, we began to take notice of how most nocturnal establishments have a decayed maner of operating. As the end of the night approaches, we find ourselves trapped in an everlasting queue of people that are all trying to pay and head home. Since everyone is eager to leave, we often witness a display of violent behaviours, with people pushing and swearing, leaving us feeling  unsafe. Through the pains we suffered, as consumers, we found an opportunity of business that could solve our problems. By turning nocturnal establishments digital, we could eliminate consumer’s pains and help the business."
 
 mission:
@@ -222,18 +227,41 @@ mission:
     - para: "Seremos uma referência, um símbolo de segurança e o sexto sentido para que boas coisas aconteçam, em qualquer estabelecimento e em qual lugar."
 
 consumerfeatures:
-  - icon: "fas fa-mobile-alt"
-    name: "Digital Bill"
-    text: "Check your bill in your phone."
-  - icon: "fas fa-shield-alt"
-    name: "Card Control"
-    text: "Control your card remotely"
-  - icon: "fas fa-book"
-    name: "Digital Menu"
-    text: "Consult the menu of an establishment"
-  - icon: "fas fa-credit-card"
-    name: "Mobile Payments"
-    text: "Pay on your device"
+  features:
+    - icon: "fas fa-mobile-alt"
+      name: "Digital Bill"
+      text: "Check your bill in your phone."
+    - icon: "fas fa-shield-alt"
+      name: "Card Control"
+      text: "Control your card remotely"
+    - icon: "fas fa-book"
+      name: "Digital Menu"
+      text: "Consult the menu of an establishment"
+    - icon: "fas fa-credit-card"
+      name: "Mobile Payments"
+      text: "Pay on your device"
+  titleText: "The app you have been asking for"
+  text: "Take your experience in a nightclub or a bar to the next level."
+
+consumerbilling:
+  titleText: "Check your bill"
+  text: "Tap into your phone and always find out how much are you paying and what have you drunk already in a matter of seconds."
+  img: "/assets/img/userswithout/billinginfo.png"
+
+cardcontrol:
+  titleText: "Lost your card?"
+  text: "Loosing your card has never been so easy to solve. Control your card remotly, block it in case of loosing it and no one else will be able to buy a drink with your card."
+  img: "/assets/img/userswithout/cardinfo.png"
+
+mobilepayment:
+  titleText: "Pay on your phone"
+  text: "Avoid unecessary queue at the exit, pay in two seconds on your device and leave before everyone else."
+  img: "/assets/img/userswithout/paymentcredit.png"
+
+digitalmenu:
+  titleText: "Digital Menu"
+  text: "Check the price of each drink inside a establishment, choose what you want to drink."
+  img: "/assets/img/userswithout/menu.png"
 
 consumerimagecaroussel:
   - img: /assets/img/userswithout/screencard.png
@@ -244,4 +272,76 @@ consumerimagecaroussel:
   - img: /assets/img/userswithout/paymentcredit.png
   - img: /assets/img/userswithout/menu.png
   - img: /assets/img/userswithout/guestcode.png
+
+
+platform:
+  titleText1: "One Platform"
+  titleText2: "Multiple Estabelishments"
+  text: "A platform that brings together multiple estabelishments in the same system."
+  costumerButton: "For Customers"
+  ownersButton: "For Owners"
+
+cardowners:
+  title: "A new type of card"
+  text: "Our clients use a new type of card which offers an interface to communicate with our system. This replaced any drinking card previous given by the establishment to a costumer."
+
+bussystems:
+  title: "System Requirements"
+  text: "Our clients must use a set of products to fully take advantage of our platform."
+  requirements:
+    - icon: "icon-credit-card"
+      name: "NFC Card"
+      text: "A card to interact with our system"
+    - icon: "icon-screen-smartphone"
+      name: "Staff App"
+      text: "An app to accomplish any tasks a staff member has"
+    - icon: "icon-screen-desktop"
+      name: "Management Service"
+      text: "A management solution for managers"
+
+stafffeatures:
+  title: "The app for every staff task"
+  text: "A fast, easy and intuitive solution for the daily challenges a staff member faces."
+  features:
+    - icon: "icon-credit-card"
+      name: "Activate card"
+      text: "Each card must be activated before given to a costumer."
+    - icon: "icon-lock"
+      name: "Control a user's card"
+      text: "What to kick a costumer or forbide him of drinking again?"
+    - icon: "fas fa-shopping-cart"
+      name: "Sell products"
+      text: "Credit establishment products into a costumer card"
+    - icon: "fas fa-book"
+      name: "Check Card Data"
+      text: "See what a costumer has consumed, set the card to paid or reset it if a costumer wants to leave."
+  images:
+    - "/assets/img/staff/menu.png"
+    - "/assets/img/staff/activatesearch.png"
+    - "/assets/img/staff/cardapio.png"
+    - "/assets/img/staff/lock.png"
+    - "/assets/img/staff/pay.png"
+
+managerfeatures:
+  title: "A management website to keepup with every going on"
+  features:
+    - name: "Menu management"
+      icon: "fas fa-shopping-cart"
+      text: "Control the selling products and its prices"
+    - name: "Human Resources"
+      icon: "fas fa-users"
+      text: "Manage your employees"
+    - name: "Guest Lists"
+      icon: "far fa-handshake"
+      text: "Keep track of how your promoters are doing"
+  images:
+    - img: "/assets/img/manager/menu.png"
+      name: "Menu management"
+      index: 1
+    - img: "/assets/img/manager/rh.png"
+      name: "Human Resources"
+      index: 2
+    - img: "/assets/img/manager/rh.png"
+      name: "Guest Lists"
+      index: 3
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}

@@ -1,0 +1,35 @@
+<section class="page-section" id="managerfeatures">
+  <div class="container" style="max-width: 720px; margin-bottom: 35px;">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1>{{site.data.sitetext.managerfeatures.title}}</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" style="max-width: 960px">
+    <div class="row">
+        {% for item in site.data.sitetext.managerfeatures.features %}
+          <div class="col-lg-4 text-center">
+            <div class="feature">
+                <i class="{{item.icon}} text-primary"></i>
+                <h3>{{item.name}}</h3>
+                <p class="text-muted">{{item.text}}</p>
+            </div>
+          </div>
+        {% endfor %}
+    </div>
+    <div class="row" style="margin-top: 50px;">
+      <div class="carousel">
+        {% for item in site.data.sitetext.managerfeatures.images %}
+          <input type="checkbox" class="faux-ui-facia">
+          <div class="slide" slide="{{item.index}}" annot="{{item.name}}">
+            <img src="{{item.img}}" style="width: 100%" alt="Slide 5">
+          </div>
+        {% endfor %}
+
+        <div class="counter" count="3"> / 3</div>
+      </div>
+    </div>
+  </div>
+</section>

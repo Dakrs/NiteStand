@@ -2,7 +2,7 @@
   <div class="container" style="max-width: 960px;">
     <div class="row">
       <div class="col-lg-8">
-        <h3>Our Mission</h3>
+        <h3>{{site.data.sitetext.mission.titleText}}</h3>
         {%- for item in site.data.sitetext.mission.text -%}
           <p>{{item.para}}</p>
         {% endfor %}
