@@ -2,82 +2,6 @@ header:
     text: "Nite, a revolutionary drinking card system for NightClubs or Bars."
     button: "Find out more!"
 
-services:
-    title: "Services"
-    text: "Lorem ipsum"
-    section: services
-    list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
-
-portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-    closebutton: "Close Project"
-
-
-timeline:
-    title: "About"
-    text: "Lorem ipsum timeline"
-    section: timeline
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the aligment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
-
-about:
-    title: "About Us"
-    text: "our story"
-    section: about
-
-clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
 team:
     title: "OUR AMAZING TEAM"
     text: "Lorem ipsum dolor sit amet consectetur."
@@ -203,17 +127,17 @@ deployment:
     - text: "A mobile app for a user to interact with the system"
       role: "Consumers"
       platform: "Android"
-      link:  /consumers
+      link:  /consumers#consumerfeatures
       index: 1
     - text: "A mobile app for every job an employee might have"
       role: "Employees"
       platform: "Android"
-      link:  /businesses
+      link:  /businesses#stafffea
       index: 2
     - text: "A website for management tasks"
       role: "Managers"
       platform: "Website"
-      link:  /businesses
+      link:  /businesses#managerfeatures
       index: 3
 
 history:
@@ -344,4 +268,45 @@ managerfeatures:
     - img: "/assets/img/manager/rh.png"
       name: "Guest Lists"
       index: 3
+
+walkthroughtintro:
+  title: "Before we start"
+  text: "The following sections present a short walkthrought of how our system connect each of its components and the tasks played out by each actor. A staff member is an establishment's employee, a manager is the owner or the establishment's manager and finally the customer is an establishment's client."
+
+walkthroughtpart1:
+  title: "1. Choosing a menu for the night"
+  text: "The first task our system requires is filling out a menu. This constains the current list of items sold by an establishment. A manager logs on into his account, creates a menu and fills out its products."
+  img: "/assets/img/manager/menu.png"
+  imgcaption: "Fig.1: Manager Website - Menu management"
+
+
+walkthroughtpart2:
+  title: "2. Card Activation"
+  text: "Every consumer of an establishment receives a card at the entrance. This card is used to buy products inside of the space. An employee activates the card using the staff application and gives it to the client which then enters inside the establishment."
+  img: "/assets/img/staff/activatesearch.png"
+  imgcaption: "Fig.2: Staff App - Card Activation"
+
+walkthroughtpart3:
+  title: "3. Card Sync"
+  text: "At this point, a client is inside the establishment and may consume as he wishes. Althrought this task is not needed, if an user wants to take advantage of our features, he must link his card to his account in our platform. To do so, an user opens up our costumer application, logs in and approaches the card near his phone. Our application will read the card number and complete the synchronization. After this point, all our user's features are available."
+  img: "/assets/img/userswithout/screennocard.png"
+  imgcaption: "Fig.3: Consumers App - Card Synchronization"
+
+walkthroughtpart4:
+  title: "4. Product Selling"
+  text: "Whenever a customer wants a product, he goes to one of the bar employees and asks for it. The bartender takes the user's card, scans it with the staff app and chooses the item to purchase. The item is automatically added to the costumer's card. With costumer's app, an user is able to view the content of his card."
+  img: "/assets/img/staff/cardapio.png"
+  imgcaption: "Fig.4: Staff App - Product Sale"
+
+walkthroughtpart5:
+  title: "5. User's Payment"
+  text: "At any time, a user may pay his bill using the consumers application. He just opens the app, consults his bill, chooses a payment method and pays."
+  img: "/assets/img/userswithout/billinginfo.png"
+  imgcaption: "Fig.5: User App - User's Payment"
+
+walkthroughtpart6:
+  title: "6. Payment Control"
+  text: "After a user pays his card, he may want to leave at any time. To do so, he moves to the exit of the space and gives his card to the employee controlling the exits. This staff members scan the card in his app and verifies if it has already been paid. After that, the user exits the establishment."
+  img: "/assets/img/staff/resetcard.png"
+  imgcaption: "Fig.6: Staff App - Payment Control"
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}

@@ -21,6 +21,7 @@ $contact-image: "{{ site.data.style.contact-image }}";
 @import "components/buttons.scss";
 @import "components/navbar.scss";
 @import "components/client-scroll.scss";
+@import "components/pageprogress.scss";
 
 // Layout
 @import "layout/masthead.scss";
@@ -36,7 +37,7 @@ $contact-image: "{{ site.data.style.contact-image }}";
 @import "layout/deployment.scss";
 @import "layout/abouthead";
 @import "layout/mission.scss";
-@import "layout/consumerheader.scss";
+@import "layout/headers.scss";
 @import "layout/consumerfeatures.scss";
 @import "layout/cardbuinesses.scss";
 @import "layout/managerfeatures.scss";

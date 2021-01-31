@@ -5,5 +5,11 @@ nav:
   - title: Businesses
     url: /businesses
 
-  - title: About
+  - title: Walkthrough
+    url: /walkthrough
+
+  - title: Team
     url: /about
+
+  - title: Docs
+    url: /docs
