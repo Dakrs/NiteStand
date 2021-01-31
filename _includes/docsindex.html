@@ -1,0 +1,24 @@
+<section id="docsindex" class="promises page-section">
+  <div class="container" style="max-width: 960px">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>{{site.data.sitetext.docsindex.title}}</h2>
+        <p style="text-muted">{{site.data.sitetext.docsindex.text}}</p>
+        <hr />
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="container-cards">
+        {% for item in site.data.sitetext.docsindex.cards %}
+          <a class="card js-scroll-trigger" href="{{item.link}}">
+            <h3 class="title">{{item.name}}</h3>
+            <div class="bar">
+              <div class="emptybar"></div>
+              <div class="filledbar"></div>
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
