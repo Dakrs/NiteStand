@@ -136,9 +136,9 @@ history:
 
 mission:
   text:
-    - para: "A felicidade está nos pequenos momentos vividos com as pessoas que mais gostamos. Os sorrisos, as gargalhadas, as danças e até mesmo as canções fazem com que nos sintamos mais vivos que nunca. A batida de uma música no ouvido, a sincronização do batimento do coração e aquela troca de olhares sorrateira explodem as nossas sensações e impedem-nos de dizer que não aos momentos. O Nite é conforto, é segurança, é alegria, é, na verdade, o momento. É a razão para que nenhum destes momentos seja perdida. É a resposta às preocupações quando as pessoas saem à noite."
-    - para: "Seremos um sinónimo que tudo correrá bem, que as pessoas se podem divertir que, nós, tratamos do resto. Permitiremos aos nossos consumidores aproveitar o agora e deixar os problemas de lado. Lembrá-los-emos dos amigos e prometeremos que um sorriso nunca mais será o mesmo."
-    - para: "Seremos uma referência, um símbolo de segurança e o sexto sentido para que boas coisas aconteçam, em qualquer estabelecimento e em qual lugar."
+    - para: "Happiness is in the little moments we spend with the people we love most. Smiles, laughter, and dancing to the best songs is what makes us feel alive. A song playing in sync with the beating of your heart, or a sneaky look in the eyes that induces a burst emotions and forbids saying no to one of these moments."
+    - para: "As long as we are part of your life, you can fully enjoy your night out and trust that everything will be alright. We allow our consumers to live and enjoy the now, leaving aside all the worries. We will remind you of your friends and we’ll make sure your smile is never the same."
+    - para: "We will be a reference, a token of security and the sixth sense for good things happening, anywhere and any time."
 
 consumerfeatures:
   features:
@@ -334,13 +334,13 @@ docsfiles:
       link: "/download/example.pdf"
     - icon: "fas fa-book"
       name: "Technical Report"
-      link: "/download/example.pdf"
+      link: "/download/relatorio_tecnico.pdf"
     - icon: "fas fa-hand-holding-usd"
       name: "Financial Plan"
       link: "/download/IPMEI_Analise Financeira.xls"
 
 docsinquiries:
-  title: "Inquiry"
+  title: "Survey"
   text: "A few months ago, we ran a survey on the University of Minho students to collect some useful data for our product. The survey had a total of 965 responses. Figure 1 shows the results obtained for the question \"How much would you pay for the possibility of paying in your mobile phone?\"."
   img: "/assets/img/inq_res.png"
   result: "A full report can be acessed here."
