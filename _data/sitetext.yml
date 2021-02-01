@@ -306,10 +306,12 @@ docsindex:
   cards:
     - name: "APKs"
       link: "#docsapk"
-    - name: "Inquiries"
-      link: "#docsinquiries"
+    - name: "Usefull Links"
+      link: "#docsaddinfo"
     - name: "Files"
       link: "#docsfiles"
+    - name: "Survey"
+      link: "#docsinquiries"
     - name: "Docs"
       link: "#docsdeveloper"
 
@@ -331,12 +333,12 @@ docsfiles:
   files:
     - icon: "far fa-handshake"
       name: "Business Plan"
-      link: "/download/example.pdf"
+      link: "/download/plano_de_negocios.pdf"
     - icon: "fas fa-book"
       name: "Technical Report"
       link: "/download/relatorio_tecnico.pdf"
     - icon: "fas fa-hand-holding-usd"
-      name: "Financial Plan"
+      name: "Financial Excel"
       link: "/download/IPMEI_Analise Financeira.xls"
 
 docsinquiries:
@@ -346,5 +348,16 @@ docsinquiries:
   result: "A full report can be acessed here."
   link: "/download/relatorio_inquerito.pdf"
   imgcaption: "Fig 1: Result to the question \"How much would you pay for the possibility of paying in your mobile phone?\""
+
+docsaddinfo:
+  title: "Usefull Links"
+  items:
+    - icon: "fab fa-github"
+      link: "https://github.com/TheTrueBazinga"
+      name: "Source Code"
+    - icon: "icon-screen-desktop"
+      link: "https://nite-app.vercel.app/sign-in"
+      name: "Manager Website"
+
 
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}
