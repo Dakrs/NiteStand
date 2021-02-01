@@ -93,23 +93,23 @@ footer:
 
 promises:
   title: "For an establishment"
-  subtitle: "With"
+  subtitle: "with"
   first_promise_name: "Mobile Payments"
-  first_promise_text: "Allowing a consumer to pay with his mobile phone"
+  first_promise_text: "Allowing a consumer to pay with their mobile phone"
   snd_promise_name: "Digital Consumption Cards"
   snd_promise_text: "A digital simulation of a physical drinking card"
   thd_promise_name: "Time Efficiency"
-  thd_promise_text: "Optimization internal processes with the data collected"
+  thd_promise_text: "Optimization of internal processes with the collected data"
 
 how:
   - name: "User App"
-    text: "An app for users to interact with the establishment."
+    text: "An app made for users to interact with the establishment."
   - name: "Staff App"
-    text: "An app for every task an establishment performs."
+    text: "An app to perform every task of the staff of an establishment."
   - name: "BackOffice App"
-    text: "Made especially for the management tasks."
+    text: "Made specially for the management tasks."
   - name: "A Special Card"
-    text: "The key to connect every app."
+    text: "The key that connects the whole system."
 
 deployment:
   title: "Find out more about our system"
@@ -132,7 +132,7 @@ deployment:
 
 history:
   titleText: "Our Mission"
-  text: "As a group of young people who have a very active night life and a background in computer science and engineering, we began to take notice of how most nocturnal establishments have a decayed maner of operating. As the end of the night approaches, we find ourselves trapped in an everlasting queue of people that are all trying to pay and head home. Since everyone is eager to leave, we often witness a display of violent behaviours, with people pushing and swearing, leaving us feeling  unsafe. Through the pains we suffered, as consumers, we found an opportunity of business that could solve our problems. By turning nocturnal establishments digital, we could eliminate consumer’s pains and help the business."
+  text: "As a group of young people who have a very active night life and a background in computer science and engineering, we began to take notice of how most nocturnal establishments have a decayed manner of operating. As the end of the night approaches, we find ourselves trapped in an everlasting queue of people that are all trying to pay and head home. Since everyone is eager to leave, we often witness a display of violent behaviours, with people pushing and swearing, leaving us feeling  unsafe. Through the pains we suffered, as consumers, we found an opportunity of business that could solve our problems. By turning nocturnal establishments digital, we could eliminate consumer’s pains and help the business."
 
 mission:
   text:
@@ -144,7 +144,7 @@ consumerfeatures:
   features:
     - icon: "fas fa-mobile-alt"
       name: "Digital Bill"
-      text: "Check your bill in your phone."
+      text: "Check your bill on your phone"
     - icon: "fas fa-shield-alt"
       name: "Card Control"
       text: "Control your card remotely"
@@ -155,26 +155,26 @@ consumerfeatures:
       name: "Mobile Payments"
       text: "Pay on your device"
   titleText: "The app you have been asking for"
-  text: "Take your experience in a nightclub or a bar to the next level."
+  text: "Take your nightlife experience to the next level."
 
 consumerbilling:
   titleText: "Check your bill"
-  text: "Tap into your phone and always find out how much are you paying and what have you drunk already in a matter of seconds."
+  text: "Tap into your phone to find out what you have consumed and how much you are paying in a matter of seconds."
   img: "/assets/img/userswithout/billinginfo.png"
 
 cardcontrol:
   titleText: "Lost your card?"
-  text: "Loosing your card has never been so easy to solve. Control your card remotly, block it in case of loosing it and no one else will be able to buy a drink with your card."
+  text: "Losing your card has never been so easy to solve. Control your card remotely, block it in case you lose it and no one else will be able to buy a drink with your card."
   img: "/assets/img/userswithout/cardinfo.png"
 
 mobilepayment:
   titleText: "Pay on your phone"
-  text: "Avoid unecessary queue at the exit, pay in two seconds on your device and leave before everyone else."
+  text: "Avoid unnecessary queues at the exit by paying in a few seconds on your phone and leave before anyone else."
   img: "/assets/img/userswithout/paymentcredit.png"
 
 digitalmenu:
   titleText: "Digital Menu"
-  text: "Check the price of each drink inside a establishment, choose what you want to drink."
+  text: "Check the price of each drink an establishment offers and choose what you want to drink."
   img: "/assets/img/userswithout/menu.png"
 
 consumerimagecaroussel:
@@ -190,18 +190,18 @@ consumerimagecaroussel:
 
 platform:
   titleText1: "One Platform"
-  titleText2: "Multiple Estabelishments"
-  text: "A platform that brings together multiple estabelishments in the same system."
+  titleText2: "Multiple Establishments"
+  text: "A platform that brings together multiple establishments in one system."
   costumerButton: "For Customers"
   ownersButton: "For Owners"
 
 cardowners:
   title: "A new type of card"
-  text: "Our clients use a new type of card which offers an interface to communicate with our system. This replaced any drinking card previous given by the establishment to a costumer."
+  text: "Our clients use a new type of card which offers an interface to communicate with our system. This replaces any drinking card previously used by the establishment."
 
 bussystems:
   title: "System Requirements"
-  text: "Our clients must use a set of products to fully take advantage of our platform."
+  text: "Our clients must use a set of products to take full advantage of our platform."
   requirements:
     - icon: "icon-credit-card"
       name: "NFC Card"
@@ -219,16 +219,16 @@ stafffeatures:
   features:
     - icon: "icon-credit-card"
       name: "Activate card"
-      text: "Each card must be activated before given to a costumer."
+      text: "Each card must be activated before a costumer can use it."
     - icon: "icon-lock"
       name: "Control a user's card"
-      text: "What to kick a costumer or forbide him of drinking again?"
+      text: "Want to kick out a costumer or forbid them from drinking again?"
     - icon: "fas fa-shopping-cart"
       name: "Sell products"
-      text: "Credit establishment products into a costumer card"
+      text: "Credit items from the menu into a costumer's card."
     - icon: "fas fa-book"
       name: "Check Card Data"
-      text: "See what a costumer has consumed, set the card to paid or reset it if a costumer wants to leave."
+      text: "See what a costumer consumed, set the card to paid or reset it in case the costumer wants to leave."
   images:
     - "/assets/img/staff/menu.png"
     - "/assets/img/staff/activatesearch.png"
@@ -237,11 +237,11 @@ stafffeatures:
     - "/assets/img/staff/pay.png"
 
 managerfeatures:
-  title: "A management website to keepup with every going on"
+  title: "A management website to keep up with everything going on"
   features:
-    - name: "Menu management"
+    - name: "Menu Management"
       icon: "fas fa-shopping-cart"
-      text: "Control the selling products and its prices"
+      text: "Control what products you sell as well as its prices"
     - name: "Human Resources"
       icon: "fas fa-users"
       text: "Manage your employees"
@@ -261,48 +261,48 @@ managerfeatures:
 
 walkthroughtintro:
   title: "Before we start"
-  text: "The following sections present a short walkthrought of how our system connect each of its components and the tasks played out by each actor. A staff member is an establishment's employee, a manager is the owner or the establishment's manager and finally the customer is an establishment's client."
+  text: "The following sections present a short walkthrough of how our system connects each of its components and the tasks played out by each actor. A staff member is an establishment's employee, a manager is the owner or the establishment's manager and, finally, the consumer is an establishment's client."
 
 walkthroughtpart1:
   title: "1. Choosing a menu for the night"
-  text: "The first task our system requires is filling out a menu. This constains the current list of items sold by an establishment. A manager logs on into his account, creates a menu and fills out its products."
+  text: "The first task our system requires is filling out a menu. This contains the current list of items sold by an establishment. A manager logs in, creates a menu and fills out its products."
   img: "/assets/img/manager/menu.png"
-  imgcaption: "Fig.1: Manager Website - Menu management"
+  imgcaption: "Fig.1: Manager Website - Menu Management"
 
 
 walkthroughtpart2:
   title: "2. Card Activation"
-  text: "Every consumer of an establishment receives a card at the entrance. This card is used to buy products inside of the space. An employee activates the card using the staff application and gives it to the client which then enters inside the establishment."
+  text: "Every consumer of an establishment receives a card at the entrance. This card is used to buy products inside of the space. An employee activates the card using the staff application and gives it to the client, who then enters the establishment."
   img: "/assets/img/staff/activatesearch.png"
   imgcaption: "Fig.2: Staff App - Card Activation"
 
 walkthroughtpart3:
   title: "3. Card Sync"
-  text: "At this point, a client is inside the establishment and may consume as he wishes. Althrought this task is not needed, if an user wants to take advantage of our features, he must link his card to his account in our platform. To do so, an user opens up our costumer application, logs in and approaches the card near his phone. Our application will read the card number and complete the synchronization. After this point, all our user's features are available."
+  text: "At this point, the client is inside the establishment and may consume as they wish. Although this task is not required, if a user wants to take advantage of our features, they must link their card to their account in our platform. To do so, a user opens up our consumer application, logs in and approaches the card near their phone. Our application will read the card number and complete the synchronization. After this point, all the user's features are available."
   img: "/assets/img/userswithout/screennocard.png"
   imgcaption: "Fig.3: Consumers App - Card Synchronization"
 
 walkthroughtpart4:
   title: "4. Product Selling"
-  text: "Whenever a customer wants a product, he goes to one of the bar employees and asks for it. The bartender takes the user's card, scans it with the staff app and chooses the item to purchase. The item is automatically added to the costumer's card. With costumer's app, an user is able to view the content of his card."
+  text: "Whenever a consumer wants a product, they go to one of the bar employees and ask for it. The bartender takes the user's card, scans it with the staff app and chooses the requested item. The item is automatically added to the costumer's card. With the costumer's app, a user is able to view the content of their card."
   img: "/assets/img/staff/cardapio.png"
   imgcaption: "Fig.4: Staff App - Product Sale"
 
 walkthroughtpart5:
   title: "5. User's Payment"
-  text: "At any time, a user may pay his bill using the consumers application. He just opens the app, consults his bill, chooses a payment method and pays."
+  text: "At any time, a user may pay their bill using the consumer's application. They just open the app, consult the bill, choose a payment method and pay."
   img: "/assets/img/userswithout/billinginfo.png"
   imgcaption: "Fig.5: User App - User's Payment"
 
 walkthroughtpart6:
   title: "6. Payment Control"
-  text: "After a user pays his card, he may want to leave at any time. To do so, he moves to the exit of the space and gives his card to the employee controlling the exits. This staff members scan the card in his app and verifies if it has already been paid. After that, the user exits the establishment."
+  text: "After a user pays their card, they can leave at any time. To do so, they go to the exit of the space and give their card to the employee controlling the exits. This staff member scans the card in their app and verifies if it has been paid. After that, the user exits the establishment."
   img: "/assets/img/staff/resetcard.png"
   imgcaption: "Fig.6: Staff App - Payment Control"
 
 docsindex:
   title: "Index"
-  text: "Click in one of the cards to find out more"
+  text: "Click on one of the cards to find out more"
   cards:
     - name: "APKs"
       link: "#docsapk"
@@ -318,7 +318,7 @@ docsdeveloper:
   text: "The platform's API documentation can be found here."
   link: "https://thetruebazinga.github.io"
   img: "/assets/img/backend-docs.png"
-  imgcaption: "Fig 2: Nite Rest API"
+  imgcaption: "Fig 2: Nite REST API"
 
 docsapk:
   title: "Download our APKs"
@@ -337,14 +337,14 @@ docsfiles:
       link: "/download/example.pdf"
     - icon: "fas fa-hand-holding-usd"
       name: "Financial Plan"
-      link: "/download/example.pdf"
+      link: "/download/IPMEI_Analise Financeira.xls"
 
 docsinquiries:
   title: "Inquiry"
-  text: "A few month ago, we ran survey in the University of Minho students to collect some usefull for our product. The survey had a total of 965 responses. The figure 1 shows the resuts collect for the question \"How much would you pay for the possibility of paying in your mobile phone?\"."
+  text: "A few months ago, we ran a survey on the University of Minho students to collect some useful data for our product. The survey had a total of 965 responses. Figure 1 shows the results obtained for the question \"How much would you pay for the possibility of paying in your mobile phone?\"."
   img: "/assets/img/inq_res.png"
-  result: "A full report can be acess here."
-  link: "/download/example.pdf"
+  result: "A full report can be acessed here."
+  link: "/download/relatorio_inquerito.pdf"
   imgcaption: "Fig 1: Result to the question \"How much would you pay for the possibility of paying in your mobile phone?\""
 
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}

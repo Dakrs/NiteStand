@@ -23,6 +23,8 @@ author     : Bazinga!
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
+logo:
+  path: /assets/img/icon.png
 
 analytics:
   google: #Google Analytics tracking code here
